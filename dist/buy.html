@@ -1,0 +1,434 @@
+	
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+河南天宇旅游集散中心有限公司
+</title><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="viewport" content="height=device-height, width=device-width, user-scalable=no, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" /><meta name="description" content="	河南天宇旅游集散中心有限公司" /><meta name="keywords" content="	河南天宇旅游集散中心有限公司" />
+<script src="js/jquery.1.9.1.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/public.css" type="text/css" /><link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
+<script src="js/swiper-3.3.1.jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/swiper-3.3.1.min.css" type="text/css" />
+<script src="js/jquery.nav.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/style_pc.css" media="screen and (min-width: 1025px)" />
+<link rel="stylesheet" type="text/css" href="css/style_tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" />
+<link rel="stylesheet" type="text/css" href="css/style_phone.css" media="screen  and (max-width: 640px) " />
+<link rel="stylesheet" type="text/css" href="css/style_pc1.css" media="screen and (min-width: 1025px)" />
+<link rel="stylesheet" type="text/css" href="css/style_tablet1.css" media="screen and (min-width: 641px) and (max-width: 1024px)" />
+<link rel="stylesheet" type="text/css" href="css/style_phone1.css" media="screen  and (max-width: 640px) " />
+<link rel="stylesheet" type="text/css" href="../css/css.css"/>
+<link rel="stylesheet" type="text/css" href="css/public.css"/>
+<script type="text/javascript" src="js/easyform.js"></script>
+<script>
+
+
+
+
+
+    $(function () {
+
+
+
+        var topbox_h = $('.top_bar_box').height();
+
+
+
+        var ss = $(document).scrollTop();
+
+        $(window).scroll(function () {
+
+            var s = $(document).scrollTop();
+
+            if (s < 0) {
+
+                $('.top_nr_box').removeClass('fixed_box');
+
+            } if (s > 0) {
+
+                $('.top_nr_box').addClass('fixed_box');
+
+            } if (s > topbox_h) {
+
+                $('.top_nr_box').addClass('no_show');
+
+                if (s > ss) {
+
+                    $('.top_nr_box').removeClass('show');
+
+                } else {
+
+                    $('.top_nr_box').addClass('show');
+
+                }
+
+                ss = s;
+
+            }
+
+
+
+            var page_nav_h = $('.index_roll_pic').height();
+
+
+
+            if (s > page_nav_h - 66) {
+
+                $('.page_navbar').addClass('fixed_box');
+
+            } else {
+
+                $('.page_navbar').removeClass('fixed_box');
+
+            }
+
+
+
+
+
+        });
+
+
+
+    });
+
+
+
+
+
+</script>
+</head>
+<body ontouchstart>
+	<div class="top_nr_box ">
+		<div class="top_body ">
+			<h1 class="h1_logo ">
+				<a href="http://www.abkuche.com/index.aspx ">
+					<img src="images/logo.png ">
+				</a>
+			</h1>
+			<div class="menu_btn ">
+				<i class=""></i>
+			</div>
+			<div class="menu_box ">
+				<ul>
+					<li><a href="index.html ">首页</a></li>
+					<li class="parent">
+						<a href="proall.html ">产品中心</a>
+						<ul class="propP">
+							<li class="p">
+								<a href="">旅游</a>
+							</li>
+							<li class="p">
+									<a href="">酒店</a>
+							</li>
+							<li class="p">
+									<a href="">电车</a>
+							</li>
+						</ul>
+					</li>
+					
+					<li><a href="experience.html ">直营体验店</a></li>
+					<li><a href="Search.html ">购车查询</a></li> 
+					<li><a href="logoin.html">注册</a></li>
+					<li><a href="registered.html">登录</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--<style type="text/css">
+			.top_nr_box .menu_box li .propP{
+				position: absolute;
+				z-index: 999;
+				display: none;
+				width: 100px;
+				margin-left: -80px;
+			}
+			.top_nr_box .menu_box li.parent:hover .propP{
+				display: block;
+			}
+			
+			.top_nr_box .menu_box li .propP>li{
+				float: none;
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+				background: #fff;
+			}
+			.top_nr_box .menu_box li .propP>li:hover a{
+				background: #fff;
+				color: #ee2147;
+			}
+			.top_nr_box .menu_box li .propP>li a{
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+			}
+	</style>-->
+<script>
+
+    $(function () {
+
+        //alert($('.menu_box').is(':visible'));
+
+        $('.menu_btn').click(function () {
+
+
+
+            if ($('.menu_box ul').height() == 0) {
+
+                $('.menu_box ul').addClass('show');
+
+            } else {
+
+                $('.menu_box ul').removeClass('show');
+
+            }
+
+        })
+
+    })
+
+</script>
+<script>
+			$(document).ready(function() {
+				var $miaobian = $('.buy-shopping-smImg>a');
+				var $huantu = $('.buy-shopping-left-img>img');
+				$miaobian.mousemove(function() {
+					miaobian(this);
+				});
+//				$miaobian1.click(function() {
+//					miaobian1(this);
+//				});
+
+				function miaobian(thisMb) {
+					for(var i = 0; i < $miaobian.length; i++) {
+						$miaobian[i].style.borderColor = '#dedede';
+					}
+					thisMb.style.borderColor = '#cd2426';
+
+					$huantu[0].src = thisMb.children[0].src;
+				}
+
+				
+
+			})
+		</script>
+<div class="buy-top"></div>
+<div class="buy-content">
+	<div class="buy-content-left">
+		<div class="buy-content-goumai">
+			<div class="buy-content-goumai-shopping">
+				<div class="buy-shopping-left">
+					<div class="buy-shopping-left-img">
+						<img src="images/shopping-one.jpg" />
+					</div>
+					<div class="buy-shopping-smImg">
+						<a href="javascript:;"><img src="images/shopping-two.jpg" /></a>
+						<a href="javascript:;"><img src="images/shopping-a.jpg" /></a>
+						<a href="javascript:;"><img src="images/shopping-two.jpg" /></a>
+						<a href="javascript:;"><img src="images/shopping-a.jpg" /></a>
+						<a href="javascript:;"><img src="images/shopping-two.jpg" /></a>
+
+					</div>
+				</div>
+				<div class="buy-shopping-right">
+					<p>银钢船型边三轮YG150B-23迷你复古侉子摩托车可上牌三轮 摩托车</p>
+					<div class="buy-shopping-right-price">
+						<span class="price-one">价格</span>
+						<span class="price-two">¥13800.00</span>
+					</div>
+					<div class="shopping-color">
+						<p>颜色分类</p>
+						<div class="shopping-color-img">
+							<img src="images/price-img.jpg" alt="" />
+							<img src="images/price-img.jpg" alt="" />
+							<img src="images/price-img.jpg" alt="" />
+						</div>
+					</div>
+					<div class="shopping-num">
+						<span class="shopping-number">数量</span>
+						<button onclick="numDec()" class="btn-one">-</button>
+						<input type="text" id="quantity" / value="1">
+						<button onclick="numAdd()" class="btn-two">+</button>
+						<span>件（库存20件）</span>
+					</div>
+					<div class="shopping-car">
+						<input type="submit" / value="立即购买" id="goumai">
+						<input type="submit" / value="加入购物车" id="jiaru">
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="buy-baby">
+			<div id="tab">
+				<div class="tabList">
+					<ul>
+						<li class="cur">宝贝详情</li>
+						<li>累计评论</li>
+					</ul>
+				</div>
+				<div class="tabCon">
+					<div class="cur">
+						<table border="none" cellspacing="0" cellpadding="0">
+							<tr>
+								<td>产地：中国</td>
+								<td>制动方式：前后碟刹</td>
+								<td>品牌：小牛电动</td>
+							</tr>
+							<tr>
+								<td>型号:M1</td>
+								<td>最高功率：1000W(含)~1500W(不含)</td>
+								<td>最高时速：20km/h以下(含)</td>
+							</tr>
+							<tr>
+								<td>电压：60V</td>
+								<td>续航里程：65km及以上</td>
+								<td>适用人群：成人</td>
+							</tr>
+							<tr>
+								<td>颜色分类：都市版 动力版</td>
+							</tr>
+						</table>
+					</div>
+					<div>
+						<li><span>质量非常好，已经是第二次购买了，拿回来同事看宝贝质量非常好，也要我给她购买质量非常好，已经是第二次购买了，拿回来同事看宝贝质量非常好，也要我给她购买</span><span>潮xxx(匿名)</span></li>
+						<li><span>质量非常好，已经是第二次购买了，拿回来同事看宝贝质量非常好，也要我给她购买质量非常好，已经是第二次购买了，拿回来同事看宝贝质量非常好，也要我给她购买</span><span>潮xxx(匿名)</span></li>
+					
+					
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="buy-juti">
+			<div class="buy-juti-content">
+				<p><img src="images/0001.jpg"/></p>
+				<p><img src="images/0001.jpg"/></p>
+				<p><img src="images/0001.jpg"/></p>
+				<p><img src="images/0001.jpg"/></p>
+			</div>
+		</div>
+	</div>
+	<div class="buy-content-right">
+		<div class="buy-hot">
+			<p>—热门推荐—</p>
+			<div class="buy-hot-product">
+				<img src="images/hot-one.jpg" alt="" />
+				<img src="images/hot-one.jpg" alt="" />
+				<img src="images/hot-one.jpg" alt="" />
+				<img src="images/hot-one.jpg" alt="" />
+				<img src="images/hot-one.jpg" alt="" />
+				<img src="images/hot-one.jpg" alt="" />
+				<img src="images/hot-one.jpg" alt="" />
+				<img src="images/hot-one.jpg" alt="" />
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="clear"></div>
+<div class="about_section " id="section-5 ">
+	<div class="my_section_nr_05 ">
+		<div class="lianxi_nr_box ">
+			邮箱：???<br> 手机：18530882117
+			<br> 座机：???
+			<br> Q Q： ???<br> 地址：郑州二七区嵩山南路238号1层
+		</div>
+		<div class="qr_box ">
+			<div class="qr_pic_txt ">
+				<p class="p_img "><img src="images/qr_wx.png "></p>
+				<p class="p_txt ">微信</p>
+			</div>
+			<div class="qr_pic_txt ">
+				<p class="p_img ">
+					<a href="http://jq.qq.com/?_wv=1027&k=2L0ILys " target="_blank "><img src="images/qr_qqg.png "></a>
+				</p>
+				<p class="p_txt ">QQ群(838350)</p>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function() {
+		$("#quantity").keyup(function() {
+			if(isNaN($(this).val()) || parseInt($(this).val()) < 1) {
+				$(this).val("1");
+				$("#totalPrice").html($("#price").val());
+				return;
+			}
+			var total = parseFloat($("#price").val()) * parseInt($(this).val());
+			$("#totalPrice").html(total.toFixed(2));
+		})
+
+	})
+	/*商品数量+1*/
+	function numAdd() {
+		var num_add = parseInt($("#quantity").val()) + 1;
+		if($("#quantity").val() == "") {
+			num_add = 1;
+		}
+		$("#quantity").val(num_add);
+		var total = parseFloat($("#price").val()) * parseInt($("#quantity").val());
+		$("#totalPrice").html(total.toFixed(2));
+	}
+	/*商品数量-1*/
+	function numDec() {
+		var num_dec = parseInt($("#quantity").val()) - 1;
+		if(num_dec < 1) {
+			//购买数量必须大于或等于1
+			//alert("not lt 1");
+
+		} else {
+			$("#quantity").val(num_dec);
+			var total = parseFloat($("#price").val()) * parseInt($("#quantity").val());
+			$("#totalPrice").html(total.toFixed(2));
+		}
+	}
+	window.onload = function() {
+		var oDiv = document.getElementById("tab");
+		var oLi = oDiv.getElementsByTagName("div")[0].getElementsByTagName("li");
+		var aCon = oDiv.getElementsByTagName("div")[1].getElementsByTagName("div");
+		var timer = null;
+		for(var i = 0; i < oLi.length; i++) {
+			oLi[i].index = i;
+			oLi[i].onmouseover = function() {
+				show(this.index);
+			}
+		}
+
+		function show(a) {
+			index = a;
+			var alpha = 0;
+			for(var j = 0; j < oLi.length; j++) {
+				oLi[j].className = "";
+				aCon[j].className = "";
+				aCon[j].style.opacity = 0;
+				aCon[j].style.filter = "alpha(opacity=0)";
+			}
+			oLi[index].className = "cur";
+			clearInterval(timer);
+			timer = setInterval(function() {
+					alpha += 2;
+					alpha > 100 && (alpha = 100);
+					aCon[index].style.opacity = alpha / 100;
+					aCon[index].style.filter = "alpha(opacity=" + alpha + ")";
+					alpha == 100 && clearInterval(timer);
+				},
+				5)
+		}
+	}
+</script>
+<div class="footer_box ">
+<div class="footer_body ">
+<p class="p_logo "><img src="images/logo.png "></p>
+<p class="p_link "><a href="index.html ">首页</a>| <a href="proall.html ">产品中心</a>| <a href="experience.html ">直营体验店</a>|  <a href="Search.html ">购车查询 </a></p>
+</div>
+<div class="d_banquan "><a href='http://www.miitbeian.gov.cn/' target="_blank " style='color:#999'>豫ICP备16009762号</a>&nbsp;Copyright &copy; 2010 - 2016 河南天宇旅游集散中心有限公司 </div>
+<p style="padding-top: 10px;"><a href="www.dd371.com" style="color: #888;">技术支持：朵朵科技</a></p>
+<!-- <div class="d_banquan "><a href='http://www.miitbeian.gov.cn/' target="_blank " style='color:#999'>豫ICP备16009762号</a>&nbsp;Copyright &copy; 2010 - 2016 河南天宇旅游集散中心有限公司 <span><script type="text/javascript ">var cnzz_protocol = (("https: " == document.location.protocol) ? " https:// " : " http:// "); document.write(unescape("%3Cspan id='cnzz_stat_icon_1258689851' %3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1258689851%26show%3Dpic' type='text/javascript' %3E%3C/script%3E "));</script></span></div> -->
+</div>
+</body>
+</html>

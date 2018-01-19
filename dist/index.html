@@ -1,0 +1,338 @@
+	
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+河南天宇旅游集散中心有限公司
+</title><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="viewport" content="height=device-height, width=device-width, user-scalable=no, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" /><meta name="description" content="	河南天宇旅游集散中心有限公司" /><meta name="keywords" content="	河南天宇旅游集散中心有限公司" />
+<script src="js/jquery.1.9.1.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/public.css" type="text/css" /><link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
+<script src="js/swiper-3.3.1.jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/swiper-3.3.1.min.css" type="text/css" />
+<script src="js/jquery.nav.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/style_pc.css" media="screen and (min-width: 1025px)" />
+<link rel="stylesheet" type="text/css" href="css/style_tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" />
+<link rel="stylesheet" type="text/css" href="css/style_phone.css" media="screen  and (max-width: 640px) " />
+<link rel="stylesheet" type="text/css" href="css/style_pc1.css" media="screen and (min-width: 1025px)" />
+<link rel="stylesheet" type="text/css" href="css/style_tablet1.css" media="screen and (min-width: 641px) and (max-width: 1024px)" />
+<link rel="stylesheet" type="text/css" href="css/style_phone1.css" media="screen  and (max-width: 640px) " />
+<link rel="stylesheet" type="text/css" href="../css/css.css"/>
+<link rel="stylesheet" type="text/css" href="css/public.css"/>
+<script type="text/javascript" src="js/easyform.js"></script>
+<script>
+
+
+
+
+
+    $(function () {
+
+
+
+        var topbox_h = $('.top_bar_box').height();
+
+
+
+        var ss = $(document).scrollTop();
+
+        $(window).scroll(function () {
+
+            var s = $(document).scrollTop();
+
+            if (s < 0) {
+
+                $('.top_nr_box').removeClass('fixed_box');
+
+            } if (s > 0) {
+
+                $('.top_nr_box').addClass('fixed_box');
+
+            } if (s > topbox_h) {
+
+                $('.top_nr_box').addClass('no_show');
+
+                if (s > ss) {
+
+                    $('.top_nr_box').removeClass('show');
+
+                } else {
+
+                    $('.top_nr_box').addClass('show');
+
+                }
+
+                ss = s;
+
+            }
+
+
+
+            var page_nav_h = $('.index_roll_pic').height();
+
+
+
+            if (s > page_nav_h - 66) {
+
+                $('.page_navbar').addClass('fixed_box');
+
+            } else {
+
+                $('.page_navbar').removeClass('fixed_box');
+
+            }
+
+
+
+
+
+        });
+
+
+
+    });
+
+
+
+
+
+</script>
+</head>
+<body ontouchstart>
+	<div class="top_nr_box ">
+		<div class="top_body ">
+			<h1 class="h1_logo ">
+				<a href="http://www.abkuche.com/index.aspx ">
+					<img src="images/logo.png ">
+				</a>
+			</h1>
+			<div class="menu_btn ">
+				<i class=""></i>
+			</div>
+			<div class="menu_box ">
+				<ul>
+					<li><a href="index.html ">首页</a></li>
+					<li class="parent">
+						<a href="proall.html ">产品中心</a>
+						<ul class="propP">
+							<li class="p">
+								<a href="">旅游</a>
+							</li>
+							<li class="p">
+									<a href="">酒店</a>
+							</li>
+							<li class="p">
+									<a href="">电车</a>
+							</li>
+						</ul>
+					</li>
+					
+					<li><a href="experience.html ">直营体验店</a></li>
+					<li><a href="Search.html ">购车查询</a></li> 
+					<li><a href="logoin.html">注册</a></li>
+					<li><a href="registered.html">登录</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--<style type="text/css">
+			.top_nr_box .menu_box li .propP{
+				position: absolute;
+				z-index: 999;
+				display: none;
+				width: 100px;
+				margin-left: -80px;
+			}
+			.top_nr_box .menu_box li.parent:hover .propP{
+				display: block;
+			}
+			
+			.top_nr_box .menu_box li .propP>li{
+				float: none;
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+				background: #fff;
+			}
+			.top_nr_box .menu_box li .propP>li:hover a{
+				background: #fff;
+				color: #ee2147;
+			}
+			.top_nr_box .menu_box li .propP>li a{
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+			}
+	</style>-->
+<script>
+
+    $(function () {
+
+        //alert($('.menu_box').is(':visible'));
+
+        $('.menu_btn').click(function () {
+
+
+
+            if ($('.menu_box ul').height() == 0) {
+
+                $('.menu_box ul').addClass('show');
+
+            } else {
+
+                $('.menu_box ul').removeClass('show');
+
+            }
+
+        })
+
+    })
+
+</script>
+<link rel="stylesheet" type="text/css" href="css/platform-1.css"/>
+<script type="text/javascript" src="js/easyform.js"></script>
+<div class="swiper-container index_roll_pic ">
+<div class="swiper-wrapper ">
+<div class="swiper-slide "><a href="javascript:; " target="_blank "><p class="p_img " style="background-image:url() "></p></a></div>
+<div class="swiper-slide "><a href="javascript:; " target="_blank "><p class="p_img " style="background-image:url() "></p></a></div>
+<div class="swiper-slide "><a href="javascript:; " target="_blank "><p class="p_img " style="background-image:url() "></p></a></div>
+<div class="swiper-slide "><a href="javascript:; " target="_blank "><p class="p_img " style="background-image:url() "></p></a></div>
+<div class="swiper-slide "><a href="javascript:; " target="_blank "><p class="p_img " style="background-image:url() "></p></a></div>
+</div>
+<div class="swiper-pagination "></div>
+</div>
+<script>
+
+    var mySwiper = new Swiper('.swiper-container', {
+
+        //direction: 'vertical',
+
+        autoplay: 3000,
+
+        loop: true,
+
+        preventClicks : false,
+
+        // 如果需要分页器
+
+        pagination: '.swiper-pagination',
+
+        paginationClickable: true
+
+    })
+
+  </script>
+<div class="page_navbar "><ul id="nav "><li><a href="#section-1 " class="on ">我们是谁</a></li><li><a href="#section-2 ">店面展示</a></li><li><a href="#section-3 ">服务优势</a></li><li><a href="#section-6 ">合作伙伴</a></li><li><a href="#section-4 ">我们的团队</a></li><li><a href="#section-5 ">联系我们</a></li></ul></div>
+<div class="about_section " id="section-1 ">
+<h1>我们是谁</h1>
+<div class="d_nr_txt ">阿贝酷车隶属河南尚之华商贸有限公司成立于2010年，我们是一家专注为电动车销售、改装、售后等一系列服务公司，创立至今为10000多位客户提供了电动车及周边服务等解决方案。服务范围包括：各品牌电动车销售、电动车改装、配件销售与维修等。我们的价值与宗旨是为客户打造最nice的产品，用服务提升产品的价值。</div>
+<div class="my_section_nr_01 ">
+<ul>
+<li><p class="p_img "><img src="images/index_icon_01.png "></p><p class="p_txt ">我们沉浸于用户诉求<br>帮您推荐更适合的爱车</p></li>
+<li><p class="p_img "><img src="images/index_icon_02.png "></p><p class="p_txt ">服务思维下的销售模式<br>撇弃浮夸直达共同的目标</p></li>
+<li><p class="p_img "><img src="images/index_icon_03.png "></p><p class="p_txt ">精益产品和尊重的态度<br>让我们鼎力相助你的Dream Car</p></li>
+</ul>
+</div>
+</div>
+<div class="about_section " id="section-2 ">
+<h1>店面展示</h1>
+<div class="d_nr_txt text-center ">阿贝酷车室内面积450平方，在郑州同行业中唯一一家拥有展车区，精品配件区，客户休息室，影棚室，办公区，配件改装区为一体的综合服务商家。</div>
+<div class="my_section_nr_02 ">
+<ul>
+<li><img src="images/dm_01.png "></li>
+<li><img src="images/dm_02.png "></li>
+<li><img src="images/dm_03.png "></li>
+<li><img src="images/dm_04.png "></li>
+<li><img src="images/dm_05.png "></li>
+<li><img src="images/dm_06.png "></li>
+</ul>
+</div>
+</div>
+<div class="about_section " id="section-3 ">
+<h1>服务优势</h1>
+<div class="d_nr_txt text-center ">优质产品、精湛技术、执行力缺一不可</div>
+<div class="my_section_nr_03 ">
+<ul>
+<li><p class="p_img "><img src="images/fw_01.png "></p><p class="p_txt ">从创始至今，我们的业务方向始终不变，专注做好一件事才能更好的追求高品质，这也是阿贝酷车存在的价值。在未来我们也是基于此信念而继续前行。</p></li>
+<li><p class="p_img "><img src="images/fw_02.png "></p><p class="p_txt ">在不断的创新和实践中总结出可持续和可信赖的工作流程，坚持与用户一起思考，与客户多交流发现问题、解决问题、输出解决方案，并实现客户产品的价值提升。</p></li>
+<li><p class="p_img "><img src="images/fw_03.png "></p><p class="p_txt ">阿贝酷车6年来积累了大量的客户案例，并验证了服务的价值。在不断的探索中总结经验，以结果为导向，继续为更多客户提供优秀的服务。</p></li>
+</ul>
+</div>
+</div>
+<div class="about_section " id="section-6 ">
+<h1>合作伙伴</h1>
+<div class="d_nr_txt text-center ">相信我们，选择阿贝酷车让一切变为可能…</div>
+<div class="my_section_nr_06 ">
+<ul>
+<li>
+<p class="p_img "><img src="images/hz_logo_01.png "></p>
+<p class="p_txt ">小牛电动</p>
+</li>
+<li>
+<p class="p_img "><img src="images/hz_logo_02.png "></p>
+<p class="p_txt ">逗哈科技</p>
+</li>
+<li>
+<p class="p_img "><img src="images/hz_logo_03.png "></p>
+<p class="p_txt ">雷爵酷车</p>
+</li>
+<li>
+<p class="p_img "><img src="images/hz_logo_04.png "></p>
+<p class="p_txt ">卢氏精工</p>
+</li>
+<li>
+<p class="p_img "><img src="images/hz_logo_06.png "></p>
+<p class="p_txt ">和平车行</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="about_section " id="section-4 ">
+<h1>我们的团队</h1>
+<div class="d_nr_txt ">我们是追求品质与力求不断超越自己的团队，每一位成员也是亲密的伙伴，与公司一起成长与发展。我们尊重每次合作的机会与挑战，不断精进，力求完美。团队秉承专注、专业的服务思维，让客户通过满意服务发挥产品的最大价值，并发掘无限的可能。热爱电动车的力量让我们不断前进…</div>
+<div class="my_section_nr_04 "><img src="images/td_01.png "></div>
+</div>
+<div class="about_section " id="section-5 ">
+<h1>联系我们</h1>
+<div class="my_section_nr_05 ">
+<div class="lianxi_nr_box ">
+邮箱：???<br>
+手机：18530882117<br>
+座机：???<br>
+Q Q： ???<br>
+地址：郑州二七区嵩山南路238号1层
+</div>
+<div class="qr_box ">
+<div class="qr_pic_txt ">
+<p class="p_img "><img src="images/qr_wx.png "></p>
+<p class="p_txt ">微信</p>
+</div>
+<div class="qr_pic_txt ">
+<p class="p_img "><a href="http://jq.qq.com/?_wv=1027&k=2L0ILys " target="_blank "><img src="images/qr_qqg.png "></a></p>
+<p class="p_txt ">QQ群(838350)</p>
+</div>
+</div>
+</div>
+</div>
+<script>
+
+    $(document).ready(function () {
+
+        $('#nav').onePageNav();
+
+    });
+
+</script>
+<div class="footer_box ">
+<div class="footer_body ">
+<p class="p_logo "><img src="images/logo.png "></p>
+<p class="p_link "><a href="index.html ">首页</a>| <a href="proall.html ">产品中心</a>| <a href="experience.html ">直营体验店</a>|  <a href="Search.html ">购车查询 </a></p>
+</div>
+<div class="d_banquan "><a href='http://www.miitbeian.gov.cn/' target="_blank " style='color:#999'>豫ICP备16009762号</a>&nbsp;Copyright &copy; 2010 - 2016 河南天宇旅游集散中心有限公司 </div>
+<p style="padding-top: 10px;"><a href="www.dd371.com" style="color: #888;">技术支持：朵朵科技</a></p>
+<!-- <div class="d_banquan "><a href='http://www.miitbeian.gov.cn/' target="_blank " style='color:#999'>豫ICP备16009762号</a>&nbsp;Copyright &copy; 2010 - 2016 河南天宇旅游集散中心有限公司 <span><script type="text/javascript ">var cnzz_protocol = (("https: " == document.location.protocol) ? " https:// " : " http:// "); document.write(unescape("%3Cspan id='cnzz_stat_icon_1258689851' %3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1258689851%26show%3Dpic' type='text/javascript' %3E%3C/script%3E "));</script></span></div> -->
+</div>
+</body>
+</html>

@@ -1,0 +1,246 @@
+	
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+河南天宇旅游集散中心有限公司
+</title><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta name="viewport" content="height=device-height, width=device-width, user-scalable=no, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" /><meta name="description" content="	河南天宇旅游集散中心有限公司" /><meta name="keywords" content="	河南天宇旅游集散中心有限公司" />
+<script src="js/jquery.1.9.1.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/public.css" type="text/css" /><link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
+<script src="js/swiper-3.3.1.jquery.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/swiper-3.3.1.min.css" type="text/css" />
+<script src="js/jquery.nav.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/style_pc.css" media="screen and (min-width: 1025px)" />
+<link rel="stylesheet" type="text/css" href="css/style_tablet.css" media="screen and (min-width: 641px) and (max-width: 1024px)" />
+<link rel="stylesheet" type="text/css" href="css/style_phone.css" media="screen  and (max-width: 640px) " />
+<link rel="stylesheet" type="text/css" href="css/style_pc1.css" media="screen and (min-width: 1025px)" />
+<link rel="stylesheet" type="text/css" href="css/style_tablet1.css" media="screen and (min-width: 641px) and (max-width: 1024px)" />
+<link rel="stylesheet" type="text/css" href="css/style_phone1.css" media="screen  and (max-width: 640px) " />
+<link rel="stylesheet" type="text/css" href="../css/css.css"/>
+<link rel="stylesheet" type="text/css" href="css/public.css"/>
+<script type="text/javascript" src="js/easyform.js"></script>
+<script>
+
+
+
+
+
+    $(function () {
+
+
+
+        var topbox_h = $('.top_bar_box').height();
+
+
+
+        var ss = $(document).scrollTop();
+
+        $(window).scroll(function () {
+
+            var s = $(document).scrollTop();
+
+            if (s < 0) {
+
+                $('.top_nr_box').removeClass('fixed_box');
+
+            } if (s > 0) {
+
+                $('.top_nr_box').addClass('fixed_box');
+
+            } if (s > topbox_h) {
+
+                $('.top_nr_box').addClass('no_show');
+
+                if (s > ss) {
+
+                    $('.top_nr_box').removeClass('show');
+
+                } else {
+
+                    $('.top_nr_box').addClass('show');
+
+                }
+
+                ss = s;
+
+            }
+
+
+
+            var page_nav_h = $('.index_roll_pic').height();
+
+
+
+            if (s > page_nav_h - 66) {
+
+                $('.page_navbar').addClass('fixed_box');
+
+            } else {
+
+                $('.page_navbar').removeClass('fixed_box');
+
+            }
+
+
+
+
+
+        });
+
+
+
+    });
+
+
+
+
+
+</script>
+</head>
+<body ontouchstart>
+	<div class="top_nr_box ">
+		<div class="top_body ">
+			<h1 class="h1_logo ">
+				<a href="http://www.abkuche.com/index.aspx ">
+					<img src="images/logo.png ">
+				</a>
+			</h1>
+			<div class="menu_btn ">
+				<i class=""></i>
+			</div>
+			<div class="menu_box ">
+				<ul>
+					<li><a href="index.html ">首页</a></li>
+					<li class="parent">
+						<a href="proall.html ">产品中心</a>
+						<ul class="propP">
+							<li class="p">
+								<a href="">旅游</a>
+							</li>
+							<li class="p">
+									<a href="">酒店</a>
+							</li>
+							<li class="p">
+									<a href="">电车</a>
+							</li>
+						</ul>
+					</li>
+					
+					<li><a href="experience.html ">直营体验店</a></li>
+					<li><a href="Search.html ">购车查询</a></li> 
+					<li><a href="logoin.html">注册</a></li>
+					<li><a href="registered.html">登录</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--<style type="text/css">
+			.top_nr_box .menu_box li .propP{
+				position: absolute;
+				z-index: 999;
+				display: none;
+				width: 100px;
+				margin-left: -80px;
+			}
+			.top_nr_box .menu_box li.parent:hover .propP{
+				display: block;
+			}
+			
+			.top_nr_box .menu_box li .propP>li{
+				float: none;
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+				background: #fff;
+			}
+			.top_nr_box .menu_box li .propP>li:hover a{
+				background: #fff;
+				color: #ee2147;
+			}
+			.top_nr_box .menu_box li .propP>li a{
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+			}
+	</style>-->
+<script>
+
+    $(function () {
+
+        //alert($('.menu_box').is(':visible'));
+
+        $('.menu_btn').click(function () {
+
+
+
+            if ($('.menu_box ul').height() == 0) {
+
+                $('.menu_box ul').addClass('show');
+
+            } else {
+
+                $('.menu_box ul').removeClass('show');
+
+            }
+
+        })
+
+    })
+
+</script>
+<div class="shopping-car-content">
+	<div class="shopping-car-container">
+		<div class="shopping-car-one">
+			<a href=""><span>首页</span></a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;
+			<a href=""><span>我的订单</span></a>
+		</div>
+		<div class="order">
+			<h1 class="h-gamma">我的订单</h1>
+			<ul class="navigation">
+				<li><a href="order.html">我的订单</a></li>
+				<li ><a href="order-one.html">配送地址</a></li>
+				<li class="is-active"><a href="order-two.html">积分</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="jifen-a ccc">
+			<p><span>我的积分</span><span><i>200</i>分</span></p>
+		</div>
+		<div class="gi lap-three-fifths desk-three-quarters pagination-content"></div>
+	</div>
+</div>
+<div class="about_section " id="section-5 ">
+	<div class="my_section_nr_05 ">
+		<div class="lianxi_nr_box ">
+			邮箱：???<br> 手机：18530882117
+			<br> 座机：???
+			<br> Q Q： ???<br> 地址：郑州二七区嵩山南路238号1层
+		</div>
+		<div class="qr_box ">
+			<div class="qr_pic_txt ">
+				<p class="p_img "><img src="images/qr_wx.png "></p>
+				<p class="p_txt ">微信</p>
+			</div>
+			<div class="qr_pic_txt ">
+				<p class="p_img ">
+					<a href="http://jq.qq.com/?_wv=1027&k=2L0ILys " target="_blank "><img src="images/qr_qqg.png "></a>
+				</p>
+				<p class="p_txt ">QQ群(838350)</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer_box ">
+<div class="footer_body ">
+<p class="p_logo "><img src="images/logo.png "></p>
+<p class="p_link "><a href="index.html ">首页</a>| <a href="proall.html ">产品中心</a>| <a href="experience.html ">直营体验店</a>|  <a href="Search.html ">购车查询 </a></p>
+</div>
+<div class="d_banquan "><a href='http://www.miitbeian.gov.cn/' target="_blank " style='color:#999'>豫ICP备16009762号</a>&nbsp;Copyright &copy; 2010 - 2016 河南天宇旅游集散中心有限公司 </div>
+<p style="padding-top: 10px;"><a href="www.dd371.com" style="color: #888;">技术支持：朵朵科技</a></p>
+<!-- <div class="d_banquan "><a href='http://www.miitbeian.gov.cn/' target="_blank " style='color:#999'>豫ICP备16009762号</a>&nbsp;Copyright &copy; 2010 - 2016 河南天宇旅游集散中心有限公司 <span><script type="text/javascript ">var cnzz_protocol = (("https: " == document.location.protocol) ? " https:// " : " http:// "); document.write(unescape("%3Cspan id='cnzz_stat_icon_1258689851' %3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1258689851%26show%3Dpic' type='text/javascript' %3E%3C/script%3E "));</script></span></div> -->
+</div>
+</body>
+</html>
